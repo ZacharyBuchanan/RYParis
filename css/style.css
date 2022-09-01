@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 .navbar {
     height: 110px;
-    background: orange;
+    background: #F1A536;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +16,7 @@
 
 .nav-links {
     display: flex;
+    padding: 15px 50px;
 }
 
 .nav-item {
@@ -21,6 +24,7 @@
     margin-right: 50px;
     padding: 30px 10px;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .nav-item a {
@@ -30,4 +34,31 @@
 
 #logo {
     padding: 15px 50px;
+}
+
+.main-image {
+    background-image: url(../images/hero-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-heading {
+    background-color: white;
+    margin-bottom: 3%;
+    padding: 5px 15px;
+}
+
+.main-heading span {
+    font-size: 20px;
+}
+
+.categories-container {
+    height: 580px;
+    width: 100%;
+    border: 1px solid black;
 }
