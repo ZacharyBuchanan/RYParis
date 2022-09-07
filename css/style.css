@@ -58,7 +58,40 @@
 }
 
 .categories-container {
+    /* Centers the container */
+    margin: 0 auto;
     height: 580px;
-    width: 100%;
-    border: 1px solid black;
+    width: 85%;
+}
+
+.category-heading {
+    border: 2px solid red;
+    height: 50%;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    border: 3px solid green;
+}
+
+.image-detail {
+    text-align: center;
+}
+
+.image-row {
+    border: 2px solid blue;
+}
+
+.cate-image {
+    height: 250px;
+    width: 400px;
+    margin: 0px 20px;
+    object-fit: cover;
+}
+
+.image-footer {
+    display: inline-block;
 }
