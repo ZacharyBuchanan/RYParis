@@ -6,6 +6,10 @@
     font-family: Lato, sans-serif;
 }
 
+h1 {
+    font-weight: 900;
+}
+
 .navbar {
     height: 110px;
     background: #F1A536;
@@ -47,6 +51,17 @@
     align-items: flex-end;
 }
 
+.burger-image {
+    background-image: url(../images/bengal-burger.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .main-heading {
     background-color: white;
     margin-bottom: 3%;
@@ -60,29 +75,43 @@
 .categories-container {
     /* Centers the container */
     margin: 0 auto;
-    height: 580px;
-    width: 85%;
+    padding: 40px;
+    width: 90%;
 }
 
 .category-heading {
-    border: 2px solid red;
     height: 50%;
+    padding: 40px;
+}
+
+.category-heading h1 {
+    margin-bottom: 20px;
+}
+
+.category-heading p {
+    font-size: 1.5em;
 }
 
 
-.image-container {
+.cate-image-container {
     display: flex;
     justify-content: space-around;
     height: 50%;
-    border: 3px solid green;
 }
 
-.image-detail {
+.cate-image-container p {
+    padding-top: 16px;
+}
+
+.cate-image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cate-image-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-}
-
-.image-row {
-    border: 2px solid blue;
 }
 
 .cate-image {
@@ -92,6 +121,140 @@
     object-fit: cover;
 }
 
-.image-footer {
-    display: inline-block;
+.healthy-body {
+    width: 100%;
+    background-color: #DADFEA;
+}
+
+.healthy-container {
+    margin: 0 auto;
+    padding: 40px;
+    width: 90%;
+
+}
+
+.healthy-heading {
+    height: 50%;
+    padding: 40px;
+}
+
+.healthy-heading h1 {
+    margin-bottom: 20px;
+}
+
+.healthy-heading p {
+    font-size: 1.5em;
+}
+
+.health-image-row {
+    display: flex;
+    padding: 0 18px;
+    justify-content: space-between;
+}
+
+.health-image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+}
+
+.health-image-container p {
+    background-color: white;
+    width: 56%;
+    margin: 0 auto;
+    padding: 10px 41px;
+}
+
+.health-image {
+    height: 200px;
+    width: 85%;
+    margin: 0px auto;
+    object-fit: cover;
+}
+
+.eat-container {
+    width: 90%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.eat-heading {
+    height: 50%;
+    padding: 40px;
+}
+
+.eat-heading h1 {
+    margin-bottom: 20px;
+}
+
+.eat-heading p {
+    font-size: 1.5em;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.eat-image-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.eat-image-container p {
+    padding-top: 16px;
+}
+
+.eat-image-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.eat-image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.eat-image {
+    height: 300px;
+    width: 400px;
+    margin: 0px 20px;
+    object-fit: cover;
+    border: 5px solid #DADFEA;
+}
+
+.footer {
+    height: 110px;
+    background: #F1A536;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    padding: 15px 50px;
+}
+
+.footer-item {
+    list-style: none;
+    margin-right: 10px;
+    padding: 30px 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#copyright {
+    padding: 15px 50px;
+}
+
+.header-footer-container {
+    width: 100%;
+    background-color: #DADFEA;
 }
