@@ -258,3 +258,22 @@ h1 {
     width: 100%;
     background-color: #DADFEA;
 }
+
+.header-footer-info {
+    margin: 0 auto;
+    padding: 40px;
+    width: 90%;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bengal-container {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px #F1A536 solid;
+}
+
+.bengal-content {}
