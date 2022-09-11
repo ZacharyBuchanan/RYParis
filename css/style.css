@@ -257,6 +257,7 @@ h1 {
 .header-footer-container {
     width: 100%;
     background-color: #DADFEA;
+    margin-bottom: 20px;
 }
 
 .header-footer-info {
@@ -270,10 +271,91 @@ h1 {
     justify-content: space-between;
 }
 
+.stats2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .bengal-container {
     width: 90%;
     margin: 0 auto;
-    border: 2px #F1A536 solid;
 }
 
-.bengal-content {}
+.bengal-content {
+    padding: 40px;
+}
+
+.bengal-title {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.star-color {
+    color: #A63223;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #A63223;
+    margin-right: 20px;
+}
+
+.buttons span {
+    color: white;
+}
+
+.quote-container {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: #DADFEA;
+    padding: 40px;
+}
+
+.quote-content {
+    width: 85%;
+    margin: 0 auto;
+    color: #575656;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+.directions-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.directions-container h1 {
+    margin-bottom: 20px;
+}
+
+.ingredients {
+    width: 40%;
+    margin-right: 80px;
+}
+
+.ingredients ul {
+    margin-bottom: 20px;
+}
+
+.directions {
+    width: 40%;
+}
+
+.directions li {
+    margin-bottom: 20px;
+}
