@@ -266,12 +266,18 @@ h1 {
     width: 90%;
 }
 
+.header-footer-info h1 {
+    margin-bottom: 10px;
+}
+
 .stats {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .stats2 {
+    width: 51%;
     display: flex;
     justify-content: space-between;
 }
@@ -279,6 +285,7 @@ h1 {
 .bengal-container {
     width: 90%;
     margin: 0 auto;
+    height: 260px;
 }
 
 .bengal-content {
@@ -305,7 +312,7 @@ h1 {
 }
 
 .buttons button {
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 15px;
     border-style: none;
     background-color: #A63223;
@@ -331,6 +338,10 @@ h1 {
     color: #575656;
     font-size: 1.6em;
     font-weight: 900;
+}
+
+.quote-content p {
+    padding-top: 15px;
 }
 
 .directions-container {
